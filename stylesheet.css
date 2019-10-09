@@ -1,1 +1,63 @@
-body {}
+body {
+  text-align: center;
+}
+
+.logo {
+  background-color: #cdf7d9;
+}
+
+.nav {
+  background-color: #f9c3fa
+}
+
+main {
+  text-align: center;
+  justify-content: center;
+}
+
+.story-image img {
+  width: 750px;
+  height: 375px;
+  text-align: center;
+}
+.story-text h1,p {  
+  text-align: center;
+  display: inline-block;
+  width: 750px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    text-align: center;
+    justify-content: center;
+  }
+  .cards img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+    text-align: center;
+  }
+
+  .customer-section {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .reviews p{
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .blog p {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #fafaa5
+  }
