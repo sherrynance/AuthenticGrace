@@ -2,10 +2,16 @@
 header {
   background: #E7717D;
 
+
 }
 
+.subscription_email_listing_container {
+  float: right;
+}
 
-
+.newsletter-button {
+  float: right;
+} 
 body {
   text-align: center;
 }
