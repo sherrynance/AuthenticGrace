@@ -1,8 +1,21 @@
 
-header {
+.header {
   background: #E7717D;
+  text-decoration: none;
 
+}
 
+.header-logo {
+  float: left;
+  background: #E7717D;
+  font-size: 50px;
+  padding: 20px 40px;
+}
+.header-links {
+  float: left;
+  font-size: 30px;
+  padding: 33px 20px;
+  text-decoration: none;
 }
 
 .subscription_email_listing_container {
@@ -12,13 +25,16 @@ header {
 .newsletter-button {
   float: right;
 } 
+
+
 body {
   text-align: center;
+  
 }
 
 
 
-main {
+.main {
   text-align: center;
   justify-content: center;
 }
@@ -81,6 +97,7 @@ main {
     border-radius: 50%;
   }
 
+  
   .footer-container {
     background-color: #fafaa5
   }
@@ -135,14 +152,23 @@ main {
     flex-direction: column;
 } */
 
-.footer-container{
+.footer{
   background: #C2B9B0;
   height: 150px;
   width: 100%;
   padding-bottom: 10px;
+  text-decoration: none;
 
 }
 
+
+.footer_about{
+  padding: 3px 20px;
+}
+
+.footer-links{
+  padding: 2px 10px;
+}
 
 .social_media_links {
   padding-top: 10px;
@@ -152,7 +178,7 @@ main {
 }
 
 .social_media_links li {
-  padding: 10px;
+  padding: 15px;
   float: left;
   text-decoration: none;
 
@@ -165,6 +191,7 @@ main {
 } */
 
 .about_links_container {
+  
   float: left;
   margin-left: 150px;  
   text-decoration: none; 
@@ -188,3 +215,13 @@ main {
   margin-left: 450px;
   text-decoration: none;
 } 
+
+li{
+  list-style: none; 
+  padding: 3px 5px;
+  
+}
+
+a{
+  text-decoration: none;
+}
