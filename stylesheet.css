@@ -3,32 +3,43 @@ body {
   background-color: #f0ebeb;
 }
 
-header {
-  background: #E7717D;
+.header-container {
+  background: ##F1D4AF;
   text-decoration: none;
   width: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
 .header-logo {
   float: left;
-  background: #E7717D;
+  background: #C2CAD0;
   font-size: 50px;
-  padding: 20px 40px;
+  padding: 10px 30px;
 }
 
-.header-links {
+.header-list-container {
+  padding: 5px 50px;
+  font-family: 'Lato', sans-serif;
+  
+}
+.header-list li {
+  background: background: #AFD275;
   float: left;
   font-size: 30px;
   padding: 33px 20px;
   text-decoration: none;
+  background: #E7717D;
+  font-family: 'Lato', sans-serif;
 }
 
 .subscription_email_listing_container {
   float: right;
+  font-family: 'Lato', sans-serif;
 }
 
 .newsletter-button {
   float: right;
+  font-family: 'Lato', sans-serif;
 } 
 
 /*start modal*/        
@@ -221,37 +232,61 @@ main h2 {
 color: #7e685a;
 }*/
 
+/* FOOTER BEGINS HERE */
 .footer{
   background: #C2B9B0;
-  height: 150px;
+  height: 200px;
   width: 100%;
   padding-bottom: 10px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+
+}
+
+/*.social_media_links_container {
+  padding: 60px 10px;
+}*/
+
+.logo_container {
+  float: left;
+  padding: 20px 5px 20px 20px;
+  
+}
+
+.social_media_links_container{
+  /*padding: 20px 10px 0px;*/
+  float: left;
+}
+.social_media_links li {
+  padding: 20px;
+  float: left;
   text-decoration: none;
 
 }
 
+.about_links_container {
+  float: left;
+  margin-left: 200px;  
+  text-decoration: none; 
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+} 
 
-.footer_about{
+.footer_ABOUT_links{
   padding: 3px 20px;
+  font-family: 'Lato', sans-serif;
 }
 
-.footer-links{
-  padding: 2px 10px;
-}
 
+/*
 .social_media_links {
   padding-top: 10px;
   float: left;
   margin-left: 60px;
   text-decoration: none;
-}
+} */
 
-.social_media_links li {
-  padding: 15px;
-  float: left;
-  text-decoration: none;
 
-}
 
 /* .logo_container img {
   margin-left: 80px;
@@ -259,38 +294,57 @@ color: #7e685a;
   margin-bottom: 0;
 } */
 
-.about_links_container {
-  
-  float: left;
-  margin-left: 150px;  
-  text-decoration: none; 
-}
 
 
 .help_links_container {
   float: left;
+  margin-left: 200px;  
+  text-decoration: none; 
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  
+  
+  /*float: left;
   margin-left: 150px;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;*/
 }
 
+
+.footer_HELP_links {
+  padding: 3px 20px;
+  font-family: 'Lato', sans-serif;
+}
 
 .subscription_email_listing_container, .subscription_email_entry_container {
   float: right;
-  padding: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
 }
-.subscription {
+
+.newsletter-button{
+  padding: 5px 10px;
+}
+/*.subscription {
   padding-top: 40px;
   float: left;
   margin-left: 450px;
   text-decoration: none;
-} 
+  font-family: 'Lato', sans-serif;
+}*/ 
 
 li{
   list-style: none; 
   padding: 3px 5px;
+  font-family: 'Lato', sans-serif;
   
 }
 
 a{
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
