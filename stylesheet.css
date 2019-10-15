@@ -1,8 +1,12 @@
+body {
+  text-align: center;
+  background-color: #f0ebeb;
+}
 
-.header {
+header {
   background: #E7717D;
   text-decoration: none;
-
+  width: 100%;
 }
 
 .header-logo {
@@ -11,6 +15,7 @@
   font-size: 50px;
   padding: 20px 40px;
 }
+
 .header-links {
   float: left;
   font-size: 30px;
@@ -27,27 +32,40 @@
 } 
 
 
-body {
+
+
+
+
+main {
   text-align: center;
-  
-}
-
-
-
-.main {
-  text-align: center;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  padding: 0px 150px 0px 150px;
+  background-color: #f0ebeb;
   justify-content: center;
 }
 
-.story-image img {
-  width: 750px;
-  height: 375px;
+main h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: #7e685a;  
   text-align: center;
+  border-bottom: 3px solid #7e685a;
 }
+
+.story-image img {
+  text-align: center;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+}
+
+
 .story-text h1,p {  
   text-align: center;
   display: inline-block;
-  width: 750px;
+  width: 800px;
+  margin: 10px;
 }
 
 .cards {
@@ -70,7 +88,7 @@ body {
   .flex-container {
     display: inline-flex;
     justify-content: center;
-   width: 750px;
+   width: 800px;
 }
 
 .flex-container > div { 
@@ -81,7 +99,7 @@ body {
 .reviews p {
   margin: 10px;
     text-align: center;
-    width: 375px;
+    width: 400px;
 }
 .reviews img {
   border-radius: 50%;
@@ -90,16 +108,16 @@ body {
   .blog p {
     margin: 10px;
     text-align: center;
-    width: 375px;
+    width: 400px;
     
   }
   .blog img {
     border-radius: 50%;
   }
 
-  
-  .footer-container {
-    background-color: #fafaa5
+  .footer {
+    background-color: #e7717d;
+  color: #7e685a;
   }
 
   .blog-page {
@@ -109,7 +127,6 @@ body {
     flex-direction: row;
     max-height: 100vh;
     text-align: center;
-    text-decoration: none;
     justify-content: center;
   }
 
@@ -117,12 +134,17 @@ body {
     margin: 10px;
     max-width: 23vw;
     text-align: center;
+   border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
   }
 
-  .blog-page p {
-    margin: 10px;
-    max-width: 23vw;
-    text-align: center;
+  .blog-heading h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: #7e685a;
+  text-align: center;
+  border-bottom: 3px solid #7e685a;
+  text-align: center;
   }
 
   .product-cards {
@@ -140,6 +162,15 @@ body {
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
     max-width: 23vw;
     text-align: center;
+  }
+
+  .product-heading h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: #7e685a;
+  text-align: center;
+  border-bottom: 3px solid #7e685a;
+  text-align: center;
   }
 
   /* .container_around_footer {
