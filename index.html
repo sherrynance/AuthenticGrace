@@ -3,7 +3,8 @@
 <!--START of responsive screen -->
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatabile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1, shrink-to-fit="no">
         <link rel="stylesheet" href="stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
@@ -13,15 +14,19 @@
 <body>
 
  <!--START of HEADER-->
-<header> 
-        <div class="header-logo">Authentic Grace</div><!--element for the logo-->
+<div class="header-container"> 
+        <!--element for the header logo-->
 
-            <div class="header-list">
-                <ul>
-                    <li class="header-links"><a href="#">Shop</a></li>
-                    <li class="header-links"><a href="#">Our Story</a></li>
-                    <li class="header-links"><a href="#">Blog</a></li>
-                    <li class="header-links"><a href="#">Contact</a></li>
+        <div class="header-logo"><a class="header_logo" href="#">
+            <img src="img/authentic_grace_logo.jpg" width="120px">
+        </div>
+
+            <div class="header-list-container">
+                <ul class="header-list">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div> 
        
@@ -109,41 +114,59 @@
 
 <!--BEGIN FOOTER-->
 <div class="footer">
+          <div class="logo_container"><a class="footer_logo" href="#">
+                <img src="img/authentic_grace_logo.jpg" width="75px">
+          </div>
+     
    
-        <!-- <div class="logo_container"><a class="footer_logo" href="#">
-            <img src="assets/ag_logo.png" height="75px">
-        </div> -->
+      
         <!--START footer social media links-->
+
         <div class="social_media_links_container">
               <ul class="social_media_links">
-                <a href="https://www.facebook.com"><img src="img/iconfinder_Circled_Facebook_svg_5279111.png"></a>
-                <a href="https://www.instagram.com"><img src="img/iconfinder_Circled_Instagram_svg_5279112.png"></a>
-                <a href="https://twitter.com/"><img src="img/iconfinder_Circled_Twitter_svg_5279123.png"></a>
+                <li><a href="https://www.facebook.com"><img src="img/iconfinder_Circled_Facebook_svg_5279111.png"></a></li>
+                <li><a href="https://www.instagram.com"><img src="img/iconfinder_Circled_Instagram_svg_5279112.png"></a></li>
+                <li><a href="https://twitter.com/"><img src="img/iconfinder_Circled_Twitter_svg_5279123.png"></a></li>
               </ul>
         </div>
      <!--END footer social media links-->
         <div class="about_links_container">
                  <h3 class="footer_about">ABOUT</h3>
-                    <ul class="footer_about_links">
-                        <li class="footer-links"><a href="#">Shop</a></li>
-                        <li class="footer-links"><a href="#">Our Story</a></li>
-                        <li class="footer-links"><a href="#">Blog</a></li>
-                        <li class="footer-links"><a href="#">Contact</a></li>
+
+                    <ul class="footer_ABOUT_links">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
         </div>
     <!--End footer "ABOUT" links-->
+
+    <!--Start footer "HELP" links-->
+
         <div class="help_links_container">
                 <h3 class="footer_help">HELP</h3>
-                    <ul class="footer_help_links">
-                        <li class="footer-links"><a href="#">Track Order</a></li>
-                        <li class="footer-links"><a href="#">Help</a></li>
-                        <li class="footer-links"><a href="#">FAQ</a></li>
+
+                    <ul class="footer_HELP_links">
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
         </div>
     <!--End footer "HELP" links-->
-        
+    
+    <!--Start subscription email listing entry links-->
+    <div class="subscription_email_entry_container">
+        <label for="subsciption-EMAIL">SUBSCRIBE TO OUR MAILING LIST</label>
+            <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>          
+                <button class="newsletter-button" type="submit" placeholder="submit" required>
+                    <i class="fa fa-angle-right"::before></i>
+                </button>
+    </div>
+    <!--End subscription email listing entry links-->
     
 </div>
+
 <!--END FOOTER container-->
 <script src="script.js"></script>
 </body>
