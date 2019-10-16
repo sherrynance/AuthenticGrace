@@ -3,48 +3,67 @@ body {
   background-color: #f0ebeb;
 }
 
-.header-container {
-  
-  background: ##F1D4AF;
+header {
+  padding-bottom: 15px;
+  text-align: center;
+  }
+
+.header-container {  
+  background-color: #C2CAD0;
   text-decoration: none;
   width: 100%;
   font-family: 'Lato', sans-serif;
+  color: #6d6d6e;
+  padding-left: 30px;
 }
 
 .header-logo {
   float: left;
-  background: #C2CAD0;
+  background-color: #C2CAD0;
   font-size: 50px;
-  padding: 10px 30px;
+  padding: 20px 8px;
 }
 
 .header-list-container {
-  color: #F1D4AF;
-  padding: 5px 50px;
+  background-color: #C2CAD0;
+  padding: 20px 0px 30px 0px;
   float: center;
   font-family: 'Lato', sans-serif;
+  color: #6d6d6e;
   
 }
-.header-list li {
-  background: background: #AFD275;
-  float: left;
-  color: #F1D4AF;
+.header-list-container li {
+  background-color: #C2CAD0;
+  float: left;  
   font-size: 30px;
   padding: 33px 20px;
   text-decoration: none;
-  background: #E7717D;
   font-family: 'Lato', sans-serif;
 }
 
-.subscription_email_listing_container {
-  float: right;
-  font-family: 'Lato', sans-serif;
+.header-list-container a {
+  color: #6d6d6e;
 }
 
-.newsletter-button {
-  float: right;
+button {
+  background-color: #6d6d6e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 3px solid #535354;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
   font-family: 'Lato', sans-serif;
-} 
+  border-radius: 8px;
+}
+
+.button {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
 
 /*start modal*/        
 /* The Modal (background) */
@@ -101,9 +120,9 @@ main {
 main h2 {
   font-family: 'Abril Fatface', cursive;
   font-size: 40px;
-  color: #7e685a;  
+  color: #6d6d6e; 
   text-align: center;
-  border-bottom: 3px solid #7e685a;
+  border-bottom: 3px solid #6d6d6e;
 }
 
 .story-image img {
@@ -189,9 +208,9 @@ main h2 {
   .blog-heading h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 40px;
-  color: #7e685a;
+  color: #6d6d6e;
   text-align: center;
-  border-bottom: 3px solid #7e685a;
+  border-bottom: 3px solid #6d6d6e; 
   text-align: center;
   }
 
@@ -215,9 +234,9 @@ main h2 {
   .product-heading h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 40px;
-  color: #7e685a;
+  color: #6d6d6e; 
   text-align: center;
-  border-bottom: 3px solid #7e685a;
+  border-bottom: 3px solid #6d6d6e; 
   text-align: center;
   }
 
@@ -262,27 +281,33 @@ color: #7e685a;
   float: left;
   margin-top: 30px;
 }
-.social_media_links li {
+.social_media_links_container li {
   padding: 20px;
   float: left;
   text-decoration: none;
 
 }
 
+.social_media_links_container a {
+  color: #6d6d6e;
+}
 .about_links_container {
   background: #C2B9B0;
   float: left;
-  margin-left: 200px;  
+  margin-left: 100px;  
   text-decoration: none; 
   padding: 5px;
   font-family: 'Lato', sans-serif;
 } 
 
+.about_links_container a {
+  color: #6d6d6e;
+}
+
 .footer_ABOUT_links{
   padding: 3px 20px;
   font-family: 'Lato', sans-serif;
 }
-
 
 /*
 .social_media_links {
@@ -305,17 +330,22 @@ color: #7e685a;
 .help_links_container {
   background: #C2B9B0;
   float: left;
-  margin-left: 200px;  
+  margin-left: 100px;  
   text-decoration: none; 
   padding: 5px;
   font-family: 'Lato', sans-serif;
+}
+
+.help_links_container a {
+  color: #6d6d6e;
+}
   
   
   /*float: left;
   margin-left: 150px;
   text-decoration: none;
   font-family: 'Lato', sans-serif;*/
-}
+
 
 
 .footer_HELP_links {
