@@ -11,14 +11,51 @@
 
     <body>
     
-    <header>
-        <div class="logo">
-            <h1>Logo</h1>
-        </div>
-        <div class="nav">
-            <h2>Nav Bar</h2>
-        </div>
-    </header>
+            <header>
+                    <div class="header-container"> 
+                            <!--element for the header logo-->
+                    
+                            <div class="header-logo"><a class="header_logo" href="#">
+                                <img src="img/authentic_grace_logo.jpg" width="120px">
+                            </div>
+                    
+                                <div class="header-list-container">
+                                    <ul>
+                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div> 
+                           
+                    <div class="button">               
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Join Our Newsletter!</button>
+                    
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Join our Newsletter!</h2>
+                        <form action="/action_page.php">
+                            Full Name:<br>
+                            <input type="text" name="fullname" value="Enter">
+                            <br>
+                            Email:<br>
+                            <input type="email" name="emailaddress" value="Enter">
+                            <br><br>
+                            <input type="submit" value="Submit">
+                          </form> 
+                          
+                          <p>Thank you for signing up!</p>
+                      </div>
+                    
+                    </div>
+                    </div>
+                                
+                            </header>
 
    
     <main>
@@ -38,11 +75,62 @@
     </main>
     
 
-    <footer>
-        <div class="footer">
-            <h1>Footer/Help/Social Media</h1>
+   <!--BEGIN FOOTER-->
+<div class="footer">
+        <div class="logo_container"><a class="footer_logo" href="#">
+              <img src="img/authentic_grace_logo.jpg" width="150px">
         </div>
-    </footer>
+   
+ 
+    
+      <!--START footer social media links-->
+
+      <div class="social_media_links_container">
+            <ul>
+              <li><a href="https://www.facebook.com"><img src="img/iconfinder_Circled_Facebook_svg_5279111.png" width="30px"></a></li>
+              <li><a href="https://www.instagram.com"><img src="img/iconfinder_Circled_Instagram_svg_5279112.png" width="30px"></a></li>
+              <li><a href="https://twitter.com/"><img src="img/iconfinder_Circled_Twitter_svg_5279123.png" width="30px"></a></li>
+            </ul>
+      </div>
+   <!--END footer social media links-->
+      <div class="about_links_container">
+               <h3 class="footer_about">ABOUT</h3>
+
+                  <ul class="footer_ABOUT_links">
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">Our Story</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+      </div>
+  <!--End footer "ABOUT" links-->
+
+  <!--Start footer "HELP" links-->
+
+      <div class="help_links_container">
+              <h3 class="footer_help">HELP</h3>
+
+                  <ul class="footer_HELP_links">
+                      <li><a href="#">Track Order</a></li>
+                      <li><a href="#">Help</a></li>
+                      <li><a href="#">FAQ</a></li>
+                  </ul>
+      </div>
+  <!--End footer "HELP" links-->
+  
+  <!--Start subscription email listing entry links-->
+  <div class="subscription_email_entry_container">
+      <label for="subsciption-EMAIL">SUBSCRIBE TO OUR MAILING LIST</label>
+          <input type="email" value name="EMAIL" class="email form-control" id="ag-EMAIL" placeholder="email address" required>          
+              <button class="newsletter-button" type="submit" placeholder="submit" required>
+                  <i class="fa fa-angle-right"::before></i>
+              </button>
+  </div>
+  <!--End subscription email listing entry links-->
+  
+</div>
+
+<!--END FOOTER container-->
     
     </body>
 
