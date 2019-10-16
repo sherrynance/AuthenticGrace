@@ -270,6 +270,7 @@ color: #7e685a;
 }
 
 .about_links_container {
+  background: #C2B9B0;
   float: left;
   margin-left: 200px;  
   text-decoration: none; 
@@ -302,6 +303,7 @@ color: #7e685a;
 
 
 .help_links_container {
+  background: #C2B9B0;
   float: left;
   margin-left: 200px;  
   text-decoration: none; 
@@ -322,6 +324,7 @@ color: #7e685a;
 }
 
 .subscription_email_listing_container, .subscription_email_entry_container {
+  background: #C2B9B0;
   float: right;
   padding: 10px;
   margin-top: 30px;
