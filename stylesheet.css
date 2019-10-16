@@ -4,6 +4,7 @@ body {
 }
 
 .header-container {
+  
   background: ##F1D4AF;
   text-decoration: none;
   width: 100%;
@@ -18,13 +19,16 @@ body {
 }
 
 .header-list-container {
+  color: #F1D4AF;
   padding: 5px 50px;
+  float: center;
   font-family: 'Lato', sans-serif;
   
 }
 .header-list li {
   background: background: #AFD275;
   float: left;
+  color: #F1D4AF;
   font-size: 30px;
   padding: 33px 20px;
   text-decoration: none;
@@ -249,13 +253,14 @@ color: #7e685a;
 
 .logo_container {
   float: left;
-  padding: 20px 5px 20px 20px;
+  padding: 25px 5px 20px 25px;
   
 }
 
 .social_media_links_container{
   /*padding: 20px 10px 0px;*/
   float: left;
+  margin-top: 30px;
 }
 .social_media_links li {
   padding: 20px;
@@ -265,6 +270,7 @@ color: #7e685a;
 }
 
 .about_links_container {
+  background: #C2B9B0;
   float: left;
   margin-left: 200px;  
   text-decoration: none; 
@@ -297,6 +303,7 @@ color: #7e685a;
 
 
 .help_links_container {
+  background: #C2B9B0;
   float: left;
   margin-left: 200px;  
   text-decoration: none; 
@@ -317,6 +324,7 @@ color: #7e685a;
 }
 
 .subscription_email_listing_container, .subscription_email_entry_container {
+  background: #C2B9B0;
   float: right;
   padding: 10px;
   margin-top: 30px;
